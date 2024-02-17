@@ -2,7 +2,7 @@
 
 namespace MailContainerTest.Data
 {
-    public class BackupMailContainerDataStore
+    public class BackupMailContainerDataStore : IDataStore
     {
         public MailContainer GetMailContainer(string mailContainerNumber)
         {
